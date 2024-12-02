@@ -1,0 +1,29 @@
+*, html, ::before, ::after{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+input, input:active, input:focus{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+input:active, input:focus{
+    border-width: 2px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table thead th{
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.ctg{
+    font-weight: 700;
+}
