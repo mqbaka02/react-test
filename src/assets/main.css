@@ -27,3 +27,10 @@ input:active, input:focus{
 .ctg{
     font-weight: 700;
 }
+
+.vstack{
+    display: grid;
+    padding: 2em;
+    gap: 1em;
+    grid-template-columns: 100%;
+}
